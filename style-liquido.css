@@ -1,0 +1,65 @@
+body{
+	font-family: font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background: #f2f2f2;
+}
+
+#container{
+	width: 100%; /*720*/
+	margin: 0 auto;
+	background: #fff;
+	min-width: 720px;
+	/*max-width: 960px;*/
+}
+
+#marca{
+	height: 100px;
+	background: #9E9E9E;
+	text-align: center;
+	line-height: 100px;
+}
+#conteudo{
+	border: 1px solid red;
+	width: 75%;
+	float: right;
+}
+
+#conteudo-principal{
+	border: 1px solid red;
+	width: 63%; /*320px -> 64%*/
+	float: left;
+}
+
+#conteudo-secundario{
+	border: 1px solid red;
+	width: 34%; /*180px -> 36*/
+	float: right;
+	background: #d1d1d1;
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#navegacao{
+	border: 1px solid red;
+	width: 23%; /*180px -> 25%*/
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #d1d1d1;
+}
+
+#navegacao ul{
+	list-style: none;
+}
+#navegacao li a{
+	text-decoration: none;
+}
+#rodape{
+	clear: both;
+	background: #c4c4c4;
+	padding: 5px; 
+}
